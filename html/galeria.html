@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ICT Talagante - Galeria</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="../resources/css/index.css">
+  <link rel="stylesheet" href="../resources/css/galeria.css">
+
+  <link rel="icon" href="../resources/image/Misc/Logn.png" type="image/x-icon">
+</head>
+<body>
+  <!-- ========================= -->
+  <!-- HEADER / NAVBAR -->
+  <!-- ========================= -->
+  <header class="sticky-top bg-white shadow-sm">
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid px-0">
+        <div class="d-flex align-items-center">
+          <img src="../resources/image/Misc/Logn.png" alt="Logo ICT" id="logo" style="cursor:pointer;">
+          <a class="navbar-brand ms-2 fw-bold" href="../index.html">ICT Talagante</a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html">Sobre Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Más Información</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="pei.html">Proyecto Educativo</a></li>
+                <li><a class="dropdown-item" href="admision.php">Admisión</a></li>
+                <li><a class="dropdown-item" href="contacto.php">Contacto</a></li>
+                <li><a class="dropdown-item" href="info.html">Información General</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========================= -->
+  <!-- CONTENIDO -->
+  <!-- ========================= -->
+<main class="container-lg py-5">
+    <h2 class="section-title text-center">Galería Histórica (2017 – 2025)</h2>
+    <p class="text-center text-muted mb-4">Momentos destacados de cada año académico.</p>
+
+    <div class="accordion" id="galeriaAccordion">
+
+      <!-- Template de año (duplicable para agregar más) -->
+      <!-- AÑO 2017 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading2017">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#year2017" aria-expanded="true" aria-controls="year2017">
+            Año 2017
+          </button>
+        </h2>
+        <div id="year2017" class="accordion-collapse collapse show" aria-labelledby="heading2017" data-bs-parent="#galeriaAccordion">
+          <div class="accordion-body text-center">
+            <div id="carousel2017" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="resources/image/galeria/2017/img1.jpg" class="d-block w-100 rounded" alt="2017-1"></div>
+                <div class="carousel-item"><img src="resources/image/galeria/2017/img2.jpg" class="d-block w-100 rounded" alt="2017-2"></div>
+                <div class="carousel-item"><img src="resources/image/galeria/2017/img3.jpg" class="d-block w-100 rounded" alt="2017-3"></div>
+                <div class="carousel-item"><img src="resources/image/galeria/2017/img4.jpg" class="d-block w-100 rounded" alt="2017-4"></div>
+                <div class="carousel-item"><img src="resources/image/galeria/2017/img5.jpg" class="d-block w-100 rounded" alt="2017-5"></div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel2017" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel2017" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AÑOS 2018 - 2025 -->
+      <!-- Puedes copiar y reemplazar el bloque anterior cambiando el año -->
+      <!-- Ejemplo: reemplaza "2017" por "2018" en IDs y rutas -->
+      <!-- ... hasta 2025 -->
+
+      <!-- AÑO 2025 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading2025">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#year2025" aria-expanded="false" aria-controls="year2025">
+            Año 2025
+          </button>
+        </h2>
+        <div id="year2025" class="accordion-collapse collapse" aria-labelledby="heading2025" data-bs-parent="#galeriaAccordion">
+          <div class="accordion-body text-center">
+            <div id="carousel2025" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active"><img src="resources/image/galeria/2025/img1.jpg" class="d-block w-100 rounded" alt="2025-1"></div>
+                <div class="carousel-item"><img src="resources/image/galeria/2025/img2.jpg" class="d-block w-100 rounded" alt="2025-2"></div>
+                <div class="carousel-item"><img src="resources/image/galeria/2025/img3.jpg" class="d-block w-100 rounded" alt="2025-3"></div>
+                <div class="carousel-item"><img src="resources/image/galeria/2025/img4.jpg" class="d-block w-100 rounded" alt="2025-4"></div>
+                <div class="carousel-item"><img src="resources/image/galeria/2025/img5.jpg" class="d-block w-100 rounded" alt="2025-5"></div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel2025" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel2025" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ========================= -->
+  <!-- FOOTER -->
+  <!-- ========================= -->
+  <footer class="bg-light">
+    <div class="container text-center py-3">
+      <ul class="lista-horizontal mb-2">
+        <li><a href="#"><img src="../resources/image/icons/facebook.png" alt="Facebook" id="social-icon"></a></li>
+        <li><a href="#"><img src="../resources/image/icons/instagram.png" alt="Instagram" id="social-icon"></a></li>
+        <li><a href="#"><img src="../resources/image/icons/twitter.png" alt="Twitter" id="social-icon"></a></li>
+        <li><a href="#"><img src="../resources/image/icons/youtube.png" alt="YouTube" id="social-icon"></a></li>
+      </ul>
+      <p class="mb-0">&copy; Yuuruii's development — Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- ========================= -->
+  <!-- SCRIPTS -->
+  <!-- ========================= -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../resources/js/ict_main.js"></script>
+</body>
+</html>

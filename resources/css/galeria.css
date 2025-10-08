@@ -1,0 +1,23 @@
+/* ===== GALERÍA ===== */
+.accordion-button {
+  background-color: var(--cyan);
+  color: white;
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--yellow);
+  color: #333;
+}
+
+.accordion-item {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.carousel-inner img {
+  height: 420px;
+  object-fit: cover;
+}
