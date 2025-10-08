@@ -35,32 +35,60 @@ El proyecto fue realizado **íntegramente por un único desarrollador**.
 ---
 
 ### ⚙️ Estructura del repositorio
+### ⚙️ Estructura del repositorio
+
+```plaintext
 📦 ict-talagante/
-┣ 📂 html/ → Páginas principales del sitio
-│ ┣ 📄 aboutus.html → Sección "Sobre Nosotros"
-│ ┣ 📄 admision.php → Formulario de admisión
-│ ┣ 📄 contacto.php → Página de contacto
-│ ┣ 📄 galeria.html → Galería de imágenes
-│ ┗ 📄 plantilla.html → Plantilla base para nuevas páginas
-┣ 📂 resources/
-│ ┣ 📂 css/ → Hojas de estilo personalizadas
-│ │ ┣ 📄 admision.css
-│ │ ┣ 📄 galeria.css
-│ │ ┗ 📄 index.css
-│ ┣ 📂 files/ → Archivos de referencia
-│ │ ┗ 📄 REGLAMENTO_EVALUACION_2024-2025.pdf
-│ ┣ 📂 image/ → Recursos gráficos
-│ │ ┣ 📂 Misc/ → Logotipos y elementos misceláneos
-│ │ ┣ 📂 aboutus/ → Imágenes sección "Sobre Nosotros"
-│ │ ┣ 📂 carrousel/ → Imágenes del carrusel principal
-│ │ ┗ 📂 icons/ → Íconos de redes sociales y archivos
-│ ┗ 📂 js/ → Scripts personalizados
-│ ┣ 📄 ict_main.js
-│ ┣ 📄 yrz_ict.js
-│ ┗ 📄 yuuruii_tabs.js
-┣ 📄 index.html → Página principal
-┗ 📄 README.md → Este documento
+├── html/
+│   ├── aboutus.html
+│   ├── admision.php
+│   ├── contacto.php
+│   ├── galeria.html
+│   └── plantilla.html
+│
+├── resources/
+│   ├── css/
+│   │   ├── admision.css
+│   │   ├── galeria.css
+│   │   └── index.css
+│   │
+│   ├── files/
+│   │   └── REGLAMENTO_EVALUACION_2024-2025.pdf
+│   │
+│   ├── image/
+│   │   ├── Misc/
+│   │   │   ├── Logn.png
+│   │   │   └── separadorvertical.png
+│   │   │
+│   │   ├── aboutus/
+│   │   │   ├── imagendos.png
+│   │   │   ├── imagenfachada.jpg
+│   │   │   └── imagentres.jpg
+│   │   │
+│   │   ├── carrousel/
+│   │   │   ├── WhatsApp Image 2025-10-07 at 10.06.07.jpeg
+│   │   │   ├── WhatsApp Image 2025-10-07 at 10.10.25.jpeg
+│   │   │   ├── bbdd7f78-6ba2-428a-b77f-21387a1f2667.jpg
+│   │   │   ├── inicio1.jpeg
+│   │   │   └── vball.png
+│   │   │
+│   │   └── icons/
+│   │       ├── facebook.png
+│   │       ├── instagram.png
+│   │       ├── pdf.png
+│   │       ├── twitter.png
+│   │       └── youtube.png
+│   │
+│   └── js/
+│       ├── ict_main.js
+│       ├── yrz_ict.js
+│       └── yuuruii_tabs.js
+│
+├── index.html
+└── README.md
+```
 ---
+
 
 ### ⚖️ Licencia y uso
 Este proyecto fue creado **con fines educativos** y **sin ningún propósito comercial**.  
@@ -106,6 +134,7 @@ Developed over approximately **4 weeks** by a **single developer**.
 ---
 
 ### ⚙️ Repository Structure
+```plaintext
 📦 ict-talagante/
 ┣ 📂 html/ → Main HTML and PHP pages
 ┣ 📂 resources/
@@ -115,7 +144,7 @@ Developed over approximately **4 weeks** by a **single developer**.
 │ ┗ 📂 js/ → JavaScript files and logic
 ┣ 📄 index.html → Home page
 ┗ 📄 README.md → This file
-
+```
 ---
 
 ### ⚖️ License & Usage
