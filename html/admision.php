@@ -49,7 +49,6 @@ $encargado = "Francisca Willhems";
                 <li><a class="dropdown-item" href="pei.html">Proyecto Educativo</a></li>
                 <li><a class="dropdown-item" href="admision.php">Admisión</a></li>
                 <li><a class="dropdown-item" href="contacto.php">Contacto</a></li>
-                <li><a class="dropdown-item" href="info.html">Información General</a></li>
               </ul>
             </li>
           </ul>
@@ -70,7 +69,7 @@ $encargado = "Francisca Willhems";
                                 <h1 class="display-5 fw-bold">Instituto de Ciencia y Tecnología de Talagante</h1>
                                 <p class="lead">Proceso de admisión <?=$year?></p>
                                 <ul class="bullet-list text-black">
-                                    <li><strong>admicion@icttalagante.cl</strong></li>
+                                    <li><strong><?=$mail?></strong></li>
                                 </ul>
                             </div>
 
@@ -104,9 +103,9 @@ $encargado = "Francisca Willhems";
     </main>
 
   <div class="convocatoria-container">
-    <h2>Ficha y Convocatoria 2026</h2>
+    <h2>Ficha y Convocatoria <?=$year?></h2>
     <div class="botones">
-      <button class="btn btn-yellow">📄 Convocatoria Proceso Admisión 2026</button>
+      <button class="btn btn-yellow">📄 Convocatoria Proceso Admisión <?=$year?></button>
       <button class="btn btn-yellow">📄 Proyecto educativo</button>
       <button class="btn btn-cyan">📄 Formulario de Postulación</button>
       <button class="btn btn-cyan">📄 Requisitos de Ingreso</button>

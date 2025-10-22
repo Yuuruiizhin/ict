@@ -1,0 +1,127 @@
+/* =========================================================
+   ESTILOS ESPECÍFICOS: ACERCA DE NOSOTROS
+   ========================================================= */
+
+/* Contenedor principal para la sección "Acerca de Nosotros" */
+.pei-container {
+    width: 80%; /* Ancho solicitado */
+    max-width: var(--max-width);
+    margin: 40px auto; /* Centrado y margen vertical */
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* Sombra elegante */
+    border-top: 5px solid var(--cyan); /* Línea superior institucional */
+}
+
+/* Títulos de sección ya definidos en la base, solo aseguramos el color */
+.section-title {
+    color: var(--dark);
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-title::after {
+    /* Mantiene el estilo de línea debajo del título con el color institucional amarillo */
+    background: var(--yellow);
+}
+
+/* Subtítulos para las modalidades */
+.sub-section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--cyan); /* Usamos el cyan para destacar */
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos de párrafo general */
+.text-content {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1.2rem;
+}
+
+/* Estilos para las etiquetas strong (negritas) usando la paleta institucional */
+.highlight-cyan {
+    color: var(--cyan);
+    font-weight: 700;
+}
+
+.highlight-yellow {
+    color: #cc9900; /* Un amarillo más oscuro para mejor legibilidad sobre fondo blanco */
+    font-weight: 700;
+}
+
+.highlight-dark {
+    color: var(--dark);
+    font-weight: 700;
+}
+
+/* Listas de infraestructura/recursos */
+.bullet-list-enhanced {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.bullet-list-enhanced li {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    position: relative;
+}
+
+/* Ícono personalizado para la lista (más elegante) */
+.bullet-list-enhanced li::before {
+    content: "•";
+    color: var(--yellow); /* Punto institucional */
+    font-size: 1.2em;
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Separador institucional */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--cyan), rgba(0, 0, 0, 0));
+    margin: 30px 0;
+}
+
+/* Declaración final (pie de sección) */
+.final-statement {
+    text-align: center;
+    font-size: 1.15rem;
+    font-style: italic;
+    padding-top: 20px;
+    margin-top: 30px;
+    border-top: 2px solid var(--gray);
+}
+
+/* Ajustes de responsividad */
+@media (max-width: 992px) {
+    .about-us-container {
+        width: 90%;
+        padding: 30px;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-us-container {
+        width: 100%;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .section-title {
+        font-size: 1.5rem;
+    }
+    .text-content {
+        font-size: 0.95rem;
+    }
+}

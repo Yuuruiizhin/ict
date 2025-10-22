@@ -256,6 +256,61 @@ header .navbar {
   line-height: 1.6;
 }
 
+.convocatoria-container {
+    width: 80%;
+    height: 25vh;
+    margin: 0 auto;
+    background-color: #dff8eb;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .convocatoria-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    text-align: center;
+  }
+
+  .botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn {
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+
+  .btn-yellow {
+    background-color: #ffd51a;
+    color: #000000;
+  }
+
+  .btn-cyan {
+    background-color: #a9f8e4;
+    color: #000000;
+  }
+
 /* =========================================================
    GALERÍA
    ========================================================= */

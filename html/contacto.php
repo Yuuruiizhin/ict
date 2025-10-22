@@ -1,5 +1,5 @@
 <?php
-$telefono = "+56 9 xxxx xxxx";
+$telefono = "+56982334100";
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +46,6 @@ $telefono = "+56 9 xxxx xxxx";
                 <li><a class="dropdown-item" href="pei.html">Proyecto Educativo</a></li>
                 <li><a class="dropdown-item" href="admision.php">Admisión</a></li>
                 <li><a class="dropdown-item" href="contacto.php">Contacto</a></li>
-                <li><a class="dropdown-item" href="info.html">Información General</a></li>
               </ul>
             </li>
           </ul>
